@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 214, 221);
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#mask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 300px;
+    background-color: brown;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#mask img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    box-shadow: 12px 12px;
+    border-radius: 16px;
+}
+
+#mask:hover img {
+    height: 150%;
+}
+
+#mask1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 300px;
+    background-color: brown;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#mask1 img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    box-shadow: 12px 12px;
+    border-radius: 16px;
+}
+
+#mask1:hover img {
+    height: 130%;
+}
+
+#mask2 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 300px;
+    background-color: brown;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#mask2 img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    box-shadow: 12px 12px;
+    border-radius: 16px;
+}
+
+#mask2:hover img {
+    height: 200%;
+}
